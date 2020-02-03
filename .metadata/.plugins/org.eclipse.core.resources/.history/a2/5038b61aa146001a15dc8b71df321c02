@@ -1,0 +1,45 @@
+package TP1;
+public class CV {
+
+	String nom;
+	String prenom;
+	String formation;
+	int experience;
+	String[] competences;
+	String attentes;
+
+	public void affiche() {
+		System.out.println(
+		 this.nom + "\n" + 
+	this.prenom
+	+ "\n" +
+		this.formation
+		+ "\n"+
+		this.experience 
+		+ "\n"+
+		this.competences
+		+ "\n"+
+		this.attentes);
+	}
+	
+	public CV(String Nom, String Prenom, String Formation, int Experience, String[] Competences, String Attentes) {
+		this.nom = Nom;
+		this.prenom = Prenom;
+		this.formation = Formation;
+		this.experience = Experience;
+		this.competences = Competences;
+		this.attentes = Attentes;
+	}
+	  public static void main(String[] args) {
+		  
+
+		System.out.println("Bienvenue chez Barette!TEST");
+		CV cvMoSol = new CV("sdasda", "dsa", "dsada", 3, null, "ss");
+		cvMoSol.affiche();
+
+		CV cvKaAoun = new CV("sdasda", "dsa", "dsada", 3, null, "ss");
+		cvKaAoun.affiche();
+	    
+	  }
+	}
+
