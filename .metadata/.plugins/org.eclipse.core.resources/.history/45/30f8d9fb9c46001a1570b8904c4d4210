@@ -1,0 +1,15 @@
+package TP1;
+
+import org.omg.CORBA.PUBLIC_MEMBER;
+
+public class cv_tp {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+
+	}
+public void show() {
+	System.out.println("test");
+}
+}

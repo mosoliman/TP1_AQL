@@ -1,0 +1,35 @@
+
+public class CV {
+
+	String nom;
+	String prenom;
+	String formation;
+	int experience;
+	String[] competences;
+	String attentes;
+
+	public static void main1(String[] args) {
+		// TODO Auto-generated method stub
+	}
+
+	public CV(String Nom, String Prenom, String Formation, int Experience, String[] Competences, String Attentes) {
+		this.nom = Nom;
+		this.prenom = Prenom;
+		this.formation = Formation;
+		this.experience = Experience;
+		this.competences = Competences;
+		this.attentes = Attentes;
+	}
+
+	public void main() {
+		System.out.println("Bienvenue chez Barette!");
+		CV unCV;
+		unCV.affiche();
+	}
+
+	public int affiche() {
+		return experience;
+
+	}
+
+}
